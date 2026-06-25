@@ -1,1 +1,10 @@
-
+[
+  {
+    "id": "weeping_woman",
+    "name": "Weeping Woman",
+    "team": "townsfolk",
+    "ability": "Each night, learn who died tonight. You weep for them until dusk(you discover if they have an evil 
+    neighbour).",
+    "image": "images/weeping_woman.png"
+  }
+]
