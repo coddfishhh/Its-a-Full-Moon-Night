@@ -1,43 +1,74 @@
+
 {
   "id": "its_a_full_moon_night",
   "name": "It's a Full Moon Night",
   "author": "coddfishh",
-  "edition": "custom",
   "version": "1.0.0",
+  "edition": "homebrew",
   "characters": {
-    "townsfolk" :[
-    "weeping_woman",
-    "lovebird",
-    "butcher",
-    "vulture",
-    "predator",
-    "gossip",
-    "oracle",
-    "flowergirl",
-    "bounty_hunter",
-    "philosopher",
-    "high_priestess",
-    "professor",
-    "preacher"
+    "townsfolk": [
+      "weeping_woman",
+      "lovebird",
+      "butcher",
+      "predator",
+      "boffin",
+      "professor",
+      "preacher",
+      "high_priestess",
+      "oracle",
+      "flowergirl",
+      "bounty_hunter"
     ],
-    "outsiders" :[
-    "moonchild",
-    "damsel",
-    "ogre",
-    "plague_doctor"
+    "outsiders": [],
+    "minions": [
+      "eskes",
+      "barmaid",
+      "vixen"
     ],
-    "minions" :[
-    "eskes",
-    "vixen",
-    "boffin",
-    "barmaid"
-    ],
-    "demons" :[
+    "demons": [
       "lynx",
-    "sinodess"
-  ],
-  "almanac": {
+      "sinodess"
+    ],
+    "travellers": []
+  },
+  "nightOrder": {
+    "firstNight": [
+      "philosopher",
+      "boffin",
+      "barmaid",
+      "sinodess",
+      "preacher",
+      "vixen",
+      "eskes",
+      "bounty_hunter",
+      "lovebird",
+      "butcher",
+      "high_priestess"
+    ],
+    "otherNight": [
+      "philosopher",
+      "barmaid",
+      "sinodess",
+      "preacher",
+      "predator",
+      "vixen",
+      "lynx",
+      "professor",
+      "eskes",
+      "bounty_hunter",
+      "weeping_woman",
+      "lovebird",
+      "butcher",
+      "oracle",
+      "flowergirl",
+      "high_priestess"
+    ],
+    "almanac": {
     "enabled": true,
     "file": "../docs/almanac.html"
+    }
   }
 }
+
+
+ 
