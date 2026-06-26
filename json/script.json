@@ -3,7 +3,9 @@
   "name": "It's a Full Moon Night",
   "author": "coddfishh",
   "edition": "custom",
-  "characters": [
+  "version": "1.0.0",
+  "characters": {
+    "townsfolk" :[
     "weeping_woman",
     "lovebird",
     "butcher",
@@ -16,16 +18,22 @@
     "philosopher",
     "high_priestess",
     "professor",
-    "preacher",
+    "preacher"
+    ],
+    "outsiders" :[
     "moonchild",
     "damsel",
     "ogre",
-    "plague_doctor",
+    "plague_doctor"
+    ],
+    "minions" :[
     "eskes",
     "vixen",
     "boffin",
-    "barmaid",
-    "lynx",
+    "barmaid"
+    ],
+    "demons" :[
+      "lynx",
     "sinodess"
   ],
   "almanac": {
