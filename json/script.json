@@ -2,13 +2,13 @@
   "id": "its_a_full_moon_night",
   "name": "It's a Full Moon Night",
   "author": "coddfishh",
+  "edition": "custom",
   "characters": [
     "weeping_woman",
     "lovebird",
     "butcher",
     "vulture",
     "predator",
-
     "gossip",
     "oracle",
     "flowergirl",
@@ -17,18 +17,19 @@
     "high_priestess",
     "professor",
     "preacher",
-
     "moonchild",
     "damsel",
     "ogre",
     "plague_doctor",
-
     "eskes",
     "vixen",
     "boffin",
     "barmaid",
-
     "lynx",
     "sinodess"
-  ]
+  ],
+  "almanac": {
+    "enabled": true,
+    "file": "../docs/almanac.html"
+  }
 }
