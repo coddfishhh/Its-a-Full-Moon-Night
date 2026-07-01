@@ -24,7 +24,7 @@
     "id": "vulture",
     "name": "Vulture",
     "team": "townsfolk",
-    "ability": "Immediately after dusk, you learn which character died by execution. You may choose to permanently gain their power. If they were evil or drunk, you are poisoned tonight and tomorrow."
+    "ability": "Immediately after dusk, you learn which character died by execution. You may choose to permanently gain their power. If they were evil or drunk, you are poisoned tonight and tomorrow.",
     "image": "https://coddfishhh.github.io/Its-a-full-moon-night/images/vulture.png"
   },
   {
