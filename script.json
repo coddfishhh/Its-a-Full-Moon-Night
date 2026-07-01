@@ -10,20 +10,28 @@
       "lovebird",
       "butcher",
       "predator",
+      "vulture",
       "philosopher",
-      "boffin",
-      "preacher",
-      "high_priestess",
+      "virgin",
+      "pacifist",
       "oracle",
       "flowergirl",
-      "bounty_hunter",
-      "professor"
+      "undertaker",
+      "professor",
+      "juggler"
     ],
-    "outsiders": [],
+    "outsiders": [
+      "damsel",
+      "drunk",
+      "mutant",
+      "recluse"
+    ],
     "minions": [
       "eskes",
       "barmaid",
-      "vixen"
+      "vixen",
+      "devil's_advocate",
+      "assassin"
     ],
     "demons": [
       "lynx",
@@ -41,34 +49,31 @@
 
   "firstNight": [
     "philosopher",
-    "boffin",
     "barmaid",
-    "sinodess",
-    "preacher",
-    "vixen",
-    "eskes",
-    "bounty_hunter",
     "lovebird",
     "butcher",
-    "high_priestess"
+    "devil's_advocate",
+    "sinodess",
+    "vixen",
+    "eskes"
   ],
 
   "otherNight": [
     "philosopher",
     "barmaid",
-    "sinodess",
-    "preacher",
+    "lovebird",
+    "butcher",
+    "devil's_advocate",
+    "assassin",
     "predator",
+    "sinodess",
     "vixen",
     "lynx",
     "professor",
     "eskes",
-    "bounty_hunter",
     "weeping_woman",
-    "lovebird",
-    "butcher",
+    "undertaker",
     "oracle",
-    "flowergirl",
-    "high_priestess"
+    "flowergirl"
   ]
 }
