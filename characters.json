@@ -24,14 +24,14 @@
     "id": "vulture",
     "name": "Vulture",
     "team": "townsfolk",
-    "ability": "Immediately after dusk, you learn which character died by execution. You consume them and gain their power (if they are a Minion, you use it for the Good team).",
+    "ability": "Immediately after dusk, you learn which character died by execution. You may choose to permanently gain their power. If they were evil or drunk, you are poisoned tonight and tomorrow."
     "image": "https://coddfishhh.github.io/Its-a-full-moon-night/images/vulture.png"
   },
   {
     "id": "predator",
     "name": "Predator",
     "team": "townsfolk",
-    "ability": "Each night, choose two players: if one is the Demon, the Demon does not wake tonight. If both are evil, a Minion dies.",
+    "ability": "Each night, choose two players: if one is the Demon, the Demon does not kill tonight. If both are evil, a Minion dies.",
     "image": "https://coddfishhh.github.io/Its-a-full-moon-night/images/predator.png"
   },
   {
@@ -45,7 +45,7 @@
     "id": "barmaid",
     "name": "Barmaid",
     "team": "minion",
-    "ability": "Each night, choose up to two players: they are drunk until dusk.",
+    "ability": "Each night, choose a player: they are drunk until dusk. If you choose an outsider, choose another additional player.",
     "image": "https://coddfishhh.github.io/Its-a-full-moon-night/images/barmaid.png"
   },
   {
