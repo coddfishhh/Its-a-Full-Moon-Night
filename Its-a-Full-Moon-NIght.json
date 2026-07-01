@@ -1,1 +1,288 @@
+[
+{
+  "id": "_meta",
+  "name": "It's a Full Moon Night",
+  "author": "coddfishh",
+  "hideTitle": false,
 
+  "background": "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/background.jpg",
+
+  "logo": "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/logo.png",
+
+  "almanac": "https://coddfishhh.github.io/Its-a-Full-Moon-Night/docs/almanac.html",
+
+  "bootlegger": [
+    "This script uses custom homebrew characters. Read the Almanac before playing."
+  ],
+
+  "firstNight": [
+    "dusk",
+    "philosopher",
+    "barmaid",
+    "lovebird",
+    "butcher",
+    "devilsadvocate",
+    "sinodess",
+    "vixen",
+    "eskes",
+    "dawn"
+  ],
+
+  "otherNight": [
+    "dusk",
+    "philosopher",
+    "juggler",
+    "barmaid",
+    "lovebird",
+    "butcher",
+    "devilsadvocate",
+    "assassin",
+    "predator",
+    "sinodess",
+    "vixen",
+    "lynx",
+    "professor",
+    "eskes",
+    "weeping_woman",
+    "undertaker",
+    "oracle",
+    "flowergirl",
+    "dawn"
+  ]
+},
+"philosopher",
+"virgin",
+"pacifist",
+"oracle",
+"flowergirl",
+"undertaker",
+"professor",
+"juggler",
+
+{
+  "id": "weeping_woman",
+  "name": "Weeping Woman",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/weeping_woman.png"
+  ],
+  "team": "townsfolk",
+  "ability": "Each night, learn who died tonight. You weep for them until dusk (you discover if they have an evil living neighbour).",
+  "flavor": "Every tear remembers a name the village wishes to forget.",
+  "firstNight": 0,
+  "otherNight": 15,
+  "firstNightReminder":"",
+  "otherNightReminder": "Wake the Weeping Woman. Point to each player who died tonight. For each dead player, indicate YES if they have an evil living neighbour, otherwise NO.",
+  "reminders": [
+    "Wept"
+  ],
+  "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+{
+  "id": "lovebird",
+  "name": "Lovebird",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/lovebird.png"
+  ],
+  "team": "townsfolk",
+  "ability": "Each night, choose a player. You are mad that you agree with them and must vote and nominate alongside them tomorrow, or you might be executed.",
+  "flavor": "To be a lover, you must first be a fighter.",
+  "firstNight": 4,
+  "otherNight": 4,
+  "firstNightReminder": "Wake the Lovebird. They choose a player. Mark that player as the Lovebird's target.",
+  "otherNightReminder": "Wake the Lovebird. They choose a player. Replace the previous target marker.",
+  "reminders": [
+    "Target"
+  ],
+   "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+{
+  "id": "butcher",
+  "name": "Butcher",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/butcher.png"
+  ],
+  "team": "townsfolk",
+  "ability": "Each night, choose a player. If they are the Lovebird, or if a player broke a social constraint today, you are safe from the Demon tonight.",
+  "flavor": "I hate spare ribs... and rotten spouses.",
+  "firstNight": 5,
+  "otherNight": 5,
+  "firstNightReminder": "Wake the Butcher. They choose a player.",
+  "otherNightReminder": "Wake the Butcher. They choose a player. If they chose the Lovebird or the Lovebird broke their madness today, the Butcher is safe from the Demon tonight.",
+  "reminders": [
+    "Protected"
+  ],
+   "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+{
+  "id": "vulture",
+  "name": "Vulture",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/vulture.png"
+  ],
+  "team": "townsfolk",
+  "ability": "Immediately after dusk, learn which character died by execution. You may permanently gain their ability. If they were evil or drunk, you are poisoned tonight and tomorrow.",
+  "flavor": "Dead men tell no tales? They do.",
+  "firstNight": 0,
+  "otherNight": 1,
+  "firstNightReminder":"",
+  "otherNightReminder": "Immediately after dusk, wake the Vulture. Show the executed player's character. If they choose to consume it, replace any previous gained ability. If the executed player was evil or drunk, mark the Vulture poisoned until tomorrow's dusk.",
+  "reminders": [
+    "Consumed Ability",
+    "Poisoned"
+  ],
+   "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+{
+  "id": "predator",
+  "name": "Predator",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/predator.png"
+  ],
+  "team": "townsfolk",
+  "ability": "Each night, choose two players. If one is the Demon, the Demon does not kill tonight. If both are evil, a Minion dies.",
+  "flavor": "For every evil gazes into the abyss... but what if the abyss gazes back?",
+  "firstNight": 0,
+  "otherNight": 8,
+  "firstNightReminder":"",
+  "otherNightReminder": "Wake the Predator. They choose two players. If one is the Demon, the Demon does not wake tonight. If both are evil, choose and kill a Minion.",
+  "reminders": [
+    "Chosen"
+  ],
+   "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+"drunk",
+"damsel",
+"mutant",
+"recluse",
+
+"devilsadvocate",
+"assassin",
+  {
+  "id": "eskes",
+  "name": "Eskes",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/eskes.png"
+  ],
+  "team": "minion",
+  "ability": "You start knowing who the Demon is. Each night, choose a player: learn their character, though the Storyteller may instead show any character.",
+  "flavor": "Truth... or dare?",
+  "firstNight": 0,
+  "otherNight": 0,
+  "firstNightReminder": "Wake Eskes. Show the Demon. Eskes chooses a player. Show either their real character or any character token.",
+  "otherNightReminder": "Wake Eskes. They choose a player. Show either their real character or any character token.",
+  "reminders": [
+    "Checked"
+  ],
+     "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+  {
+  "id": "barmaid",
+  "name": "Barmaid",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/barmaid.png"
+  ],
+  "team": "minion",
+  "ability": "Each night, choose a player. They are drunk until dusk. If you choose an Outsider, choose one additional player.",
+  "flavor": "There is no pain I know that a few jugs can't fix.",
+  "firstNight": 0,
+  "otherNight": 0,
+  "firstNightReminder": "Wake the Barmaid. They choose a player. If that player is an Outsider, they choose one additional player. Mark all chosen players drunk until dusk.",
+  "otherNightReminder": "Wake the Barmaid. Resolve as above.",
+  "reminders": [
+    "Drunk"
+  ],
+     "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+  {
+  "id": "vixen",
+  "name": "Vixen",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/vixen.png"
+  ],
+  "team": "minion",
+  "ability": "You start knowing the Demon and one Minion. Each night, you may permanently become Good. If you do, execute the Demon tomorrow or die that night.",
+  "flavor": "Every fox eventually chooses a side.",
+  "firstNight": 0,
+  "otherNight": 0,
+  "firstNightReminder": "Wake the Vixen. Show the Demon and one Minion.",
+  "otherNightReminder": "Wake the Vixen. They may betray. If they previously betrayed and failed to execute the Demon today, kill the Vixen.",
+  "reminders": [
+    "Good",
+    "Betrayed"
+  ],
+     "jinxes":[],
+  "special":[],
+  "setup":false
+},
+
+  {
+  "id": "lynx",
+  "name": "Lynx",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/lynx.png"
+  ],
+  "team": "demon",
+  "ability": "Each night*, choose up to 2 players: they die. If you choose 0 players, you register as a Townsfolk until dusk tomorrow. If executed while registered this way, the game continues and a living Minion (except the Vixen) becomes the Lynx.",
+  "flavor": "Maybe... I was never here.",
+  "firstNight": 0,
+  "otherNight": 0,
+  "firstNightReminder":"",
+  "otherNightReminder": "Wake the Lynx. They may choose 0, 1 or 2 players. Chosen players die. If they choose nobody, mark the Lynx as Invisible until dusk tomorrow. If executed while Invisible, the game continues and an eligible living Minion becomes the Lynx.",
+  "reminders": [
+    "Invisible"
+  ],
+     "jinxes":[],
+  "special":[],
+  "setup": true
+},
+
+  {
+  "id": "sinodess",
+  "name": "SinO'dess",
+  "image": [
+    "https://coddfishhh.github.io/Its-a-Full-Moon-Night/images/sinodess.png"
+  ],
+  "team": "demon",
+  "ability": "Each night, choose 2 players and one Sin: they are poisoned, they swap characters, or they die. Once per game, you may permanently swap their characters.",
+  "flavor": "Every heart carries a sin. I merely choose to awaken it.",
+  "firstNight": 0,
+  "otherNight": 0,
+  "firstNightReminder": "Wake the SinO'dess. Choose two players and one Sin to apply.",
+  "otherNightReminder": "Wake the SinO'dess. Choose two players and one Sin. If using the permanent swap, mark that it has been spent.",
+  "reminders": [
+    "Poisoned",
+    "Swapped",
+    "Permanent Swap Used"
+  ],
+    "jinxes":[],
+    "special":[],
+  "setup": true
+},
+  
+"scapegoat",
+"judge",
+
+"bootlegger",
+"hellslibrarian"
+]
